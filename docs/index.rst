@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Outreach-Workshop-Documentation's documentation!
+Welcome to ECE Outreach's Workshop Documentation!
 ===========================================================
 
 .. toctree::
@@ -12,11 +12,3 @@ Welcome to Outreach-Workshop-Documentation's documentation!
 
    ultrasonic_sensor_workshop
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
