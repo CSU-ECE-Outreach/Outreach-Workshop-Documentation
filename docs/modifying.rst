@@ -25,6 +25,7 @@ Adding Images
 3. Reference images in your .rst files using the image directive:
 
 .. code-block:: rst
+    
    .. image:: images/your_image_file.png
       :alt: Alternate text for the image
       :align: center
@@ -35,7 +36,7 @@ Notes on editing
 ----------------
 - Keep files inside the ``docs/`` folder so Sphinx/ReadTheDocs can find them.
 - If this page is not referenced by your project's ``index.rst`` (or a toctree), add it there to include it in the built docs.
-- Use RST hyperlink syntax (`` `text <url>`_ ``) instead of raw URLs for better rendering.
+- Use RST hyperlink syntax ``( `text <url>`_ )`` instead of raw URLs for better rendering.
 
 
 
