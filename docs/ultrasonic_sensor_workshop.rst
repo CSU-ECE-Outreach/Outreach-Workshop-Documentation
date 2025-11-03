@@ -2,6 +2,13 @@ Ultrasonic Sensor Workshop
 ================================
 Introduction
 --------------------
+Learning about components:
+- Ultrasonic Sensor
+- Buzzer
+- RGB LEDs
+- Arduino
+
+
 
 
 Wiring Up the Circuit
@@ -57,23 +64,23 @@ Here's the code you'll be working with during the workshop:
 
     // ***TO DO***: Setup code. Runs only one time.Setup the respective pins to be either Outputs or Inputs. 
     void setup() {   
-    pinMode(PIN_TRIG, );           // Sets the Trig Pin as an OUTPUT
-    pinMode(PIN_ECHO, );            // Sets the Echo Pin as an INPUT
-    pinMode(PIN_BUZZER, );         // Sets the Buzzer Pin as an OUTPUT
-    pinMode(PIN_RED_LED, );        // Sets the Red LED Pin as an OUTPUT
-    pinMode(PIN_BLUE_LED, );       // Sets the Blue LED Pin as an OUTPUT
-    pinMode(PIN_GREEN_LED, );      // Sets the Green LED Pin as an OUTPUT
-    Serial.begin(9600);                  // Starts the serial communication with the PC 
-    Serial.println("Distance Classification System With Arduino Uno R3");  // Prints text to the serial monitor
+        pinMode(PIN_TRIG, );           // Sets the Trig Pin as an OUTPUT
+        pinMode(PIN_ECHO, );            // Sets the Echo Pin as an INPUT
+        pinMode(PIN_BUZZER, );         // Sets the Buzzer Pin as an OUTPUT
+        pinMode(PIN_RED_LED, );        // Sets the Red LED Pin as an OUTPUT
+        pinMode(PIN_BLUE_LED, );       // Sets the Blue LED Pin as an OUTPUT
+        pinMode(PIN_GREEN_LED, );      // Sets the Green LED Pin as an OUTPUT
+        Serial.begin(9600);                  // Starts the serial communication with the PC 
+        Serial.println("Distance Classification System With Arduino Uno R3");  // Prints text to the serial monitor
 
     }
 
 
     // MAIN CODE: RUNS REPEATEDLY
     void loop() { 
-    distance = get_Distance();
-    classify_Distance(distance);
-    delay(5);
+        distance = get_Distance();
+        classify_Distance(distance);
+        delay(5);
     }
 
 
@@ -86,3 +93,6 @@ We want these colors to light up from these ranges:
         :align: center
 
         Distance Ranges for LED Indications
+
+1. Define threshold values for long_range, mid_range, and close_range in centimeters (max 50 cm).
+2. Complete the setup() function by specifying which pins are INPUTS and which are OUTPUTS.
