@@ -2,14 +2,13 @@ Ultrasonic Sensor Workshop
 ================================
 Introduction
 --------------------
-Learning about components:
+In this workshop we will be learning about components:
 - Ultrasonic Sensor
 - Buzzer
 - RGB LEDs
 - Arduino
-
-
-
+- Breadboard
+So pay attention to the slides to learn about how these components work!
 
 Wiring Up the Circuit
 --------------------
@@ -96,3 +95,40 @@ We want these colors to light up from these ranges:
 
 1. Define threshold values for long_range, mid_range, and close_range in centimeters (max 50 cm).
 2. Complete the setup() function by specifying which pins are INPUTS and which are OUTPUTS.
+
+Breadboard Help
+--------------------
+If you're new to using a breadboard, here are some tips:
+
+Below is a picture of how a breadboard works:
+
+    .. figure :: images-ultrasonic/breadboard.jpg
+        :alt: Breadboard wiring for ultrasonic sensor workshop
+        :align: center
+
+        Courtesy of DigiKey: Breadboard Wiring Example
+
+Each vertical column of holes on the sides are connected internally. The middle section is split in half, so the left and right sides are not connected. Use this to your advantage when wiring up your components!
+
+Bonus Challenges
+---------------------
+1. Modify the code so that you can display colors other than just red, green and blue. Like purple, yellow, cyan, and white.
+
+.. code-block:: cpp
+
+   // Example: To create yellow, turn on both red and green LEDs
+   digitalWrite(PIN_RED_LED, HIGH);
+   digitalWrite(PIN_GREEN_LED, HIGH);
+   digitalWrite(PIN_BLUE_LED, LOW);
+
+2. Add functionality to the buzzer so that it beeps at different rates depending on the distance range detected.
+
+.. code-block:: cpp
+
+    // Example: make buzzer beep at different pitches:
+    
+    // put this before the setup() function
+    int frequency = 1000; // Frequency in Hz
+
+    // put this inside classify_Distance() function
+    tone(PIN_BUZZER, frequency); // frequency in Hz
