@@ -12,3 +12,8 @@ Welcome to ECE Outreach's Workshop Documentation!
 
    ultrasonic_sensor_workshop
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Additional Resources
+   
+   modifying
