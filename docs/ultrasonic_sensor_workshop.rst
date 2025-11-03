@@ -2,12 +2,14 @@ Ultrasonic Sensor Workshop
 ================================
 Introduction
 --------------------
-In this workshop we will be learning about components:
-- Ultrasonic Sensor
-- Buzzer
-- RGB LEDs
-- Arduino
-- Breadboard
+In this workshop we will be learning about these components:
+
+* Ultrasonic Sensor
+* Buzzer
+* RGB LEDs
+* Arduino
+* Breadboard
+
 So pay attention to the slides to learn about how these components work!
 
 Wiring Up the Circuit
