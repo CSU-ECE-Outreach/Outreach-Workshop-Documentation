@@ -97,6 +97,23 @@ Functions in arduino:
 For our workshop, we will be using functions to create different light patterns on our LED strip!
 Below are some example functions you can copy into your empty space in the code above!
 
+Setting RGB colors
+~~~~~~~~~~~~~~~~~~~~
+
+Any time you see a line like this:
+
+``strip.Color(<RED>, <GREEN>, <BLUE>)``
+
+Replace <RED>, <GREEN>, and <BLUE> with numbers between 0 and 255 to set the color you want!
+
+Go to this website: https://www.w3schools.com/colors/colors_picker.asp
+    to pick out colors you like and find their RGB values!
+
+   .. figure :: images-masquerade/color-picker.png
+        :alt: Color Picker Website
+        :align: center
+
+        Click on a color, and look at the values for Red, Green, and Blue (circled in red)
 
 Theater Chase
 ~~~~~~~~~~~~~~
