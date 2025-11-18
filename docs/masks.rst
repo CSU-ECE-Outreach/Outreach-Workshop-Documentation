@@ -1,19 +1,38 @@
-Masquerade masks
+Masquerade Masks
 =================
 
 Introduction
 --------------------
 In this workshop, we will be learning how to use neopixels to create colorful masks!
 
+
+RGB or Red Green Blue
+~~~~~~~~~~~~~~~~~~~~~~~
+For this workshop, we will learn how computers see color! 
+
+One way computers see color is by breaking down each pixel into its red, green, and blue components.
+
+*For later: pick out some cool colors at this website: *
+
+https://www.w3schools.com/colors/colors_picker.asp
+
 What are neopixels?
-- Neopixels are special LEDs that can be used in strands to create cool sequences of colors
-- 
+~~~~~~~~~~~~~~~~~~~~
+
+* Neopixels are special LEDs (Light Emitting Diodes) that can be used in strands to create cool sequences of colors
+* They take RGB color values, and turn them into light!
+
+`strip.color(<Red>, <Green>, <Blue>)`
 
 Materials Needed:
 ------------------
 1x Arduino Nano
+
 1x Battery Cable
+
 1x LED String
+
+1x 9V Battery
 
 Code 
 -------------------
@@ -148,3 +167,45 @@ Fade between two colors!
     // copy this line into void loop()
     // Replace <RED 1>, <GREEN 1>, <BLUE 1>, <RED 2>, <BLUE 2>, <GREEN 2>, <TIME>
     colorFade(strip.Color(<RED 1>, <GREEN 1>, <BLUE 1>), strip.Color(<RED 2>, <GREEN 2>, <BLUE 2>), <TIME>);
+
+
+Assembly
+--------------
+
+MAKE SURE YOU DOUBLE CHECK YOUR WIRING !!
+
+Plug in your LED Strip like this:
+GREEN -> D6
+RED -> 3V3
+WHITE -> GND
+
+Plug your Battery Cable Like this: 
+RED -> VIN
+BLACK -> GND
+(they should be right next to each other)
+
+Running the Code
+-----------------
+
+To write your code to your arduino, click the (->) button in arduino IDE and wait a bit.
+
+In a second, your LED strip should light up!
+
+Writing your Own functions
+----------------------------
+If you finish early, try writing your own functions! If you need help getting started, ask a volunteer for help
+
+Tip Code Segments:
+
+Specify a specific color
+`uint32_t c = strip.Color(r, g, b);`
+
+Set your pixel color: 
+`strip.setPixelColor(i, c)`
+
+Show your pixel color
+`strip.show()`
+
+Delay function in arduino
+`delay(time)`
+
