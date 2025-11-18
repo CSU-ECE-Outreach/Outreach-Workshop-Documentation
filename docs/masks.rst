@@ -12,7 +12,7 @@ For this workshop, we will learn how computers see color!
 
 One way computers see color is by breaking down each pixel into its red, green, and blue components.
 
-*For later: pick out some cool colors at this website: *
+`For later: pick out some cool colors at this website: `
 
 https://www.w3schools.com/colors/colors_picker.asp
 
@@ -175,13 +175,15 @@ Assembly
 MAKE SURE YOU DOUBLE CHECK YOUR WIRING !!
 
 Plug in your LED Strip like this:
-GREEN -> D6
-RED -> 3V3
-WHITE -> GND
+
+* GREEN -> D6
+* RED -> 3V3
+* WHITE -> GND
 
 Plug your Battery Cable Like this: 
-RED -> VIN
-BLACK -> GND
+
+* RED -> VIN
+* BLACK -> GND
 (they should be right next to each other)
 
 Running the Code
@@ -197,15 +199,15 @@ If you finish early, try writing your own functions! If you need help getting st
 
 Tip Code Segments:
 
-Specify a specific color
+Specify a specific color:
 `uint32_t c = strip.Color(r, g, b);`
 
 Set your pixel color: 
 `strip.setPixelColor(i, c)`
 
-Show your pixel color
+Show your pixel color:
 `strip.show()`
 
-Delay function in arduino
+Delay function in arduino:
 `delay(time)`
 
