@@ -22,7 +22,6 @@ What are neopixels?
 * Neopixels are special LEDs (Light Emitting Diodes) that can be used in strands to create cool sequences of colors
 * They take RGB color values, and turn them into light!
 
-`strip.color(<Red>, <Green>, <Blue>)`
 
 Materials Needed:
 ------------------
@@ -34,12 +33,25 @@ Materials Needed:
 
 1x 9V Battery
 
+.. figure :: images-masquerade/materials.jpg
+        :alt: Materials for Masquerade Workshop
+        :align: center
+
+        Pictures of Materials Needed
+
 Code 
 -------------------
 To make cool sequences, we will first begin with some starter code to copy in
 
 Make sure you install Adafruit_NeoPixel before writing your code
 
+.. figure :: images-masquerade/adafruit-neopixel.png
+        :alt: Installing Adafruit Neopixel Library
+        :align: center
+
+        Click on the Library Manager and search for Adafruit Neopixel to install it
+
+Then paste in the following code:
 
 .. code-block:: cpp
 
@@ -186,10 +198,38 @@ Plug your Battery Cable Like this:
 * BLACK -> GND
 (they should be right next to each other)
 
+    .. figure :: images-masquerade/wiring.png
+        :alt: Wiring photos for masquerade workshop
+        :align: center
+
+        Example picture
+
 Running the Code
 -----------------
 
+First we have to select our arduino type. 
+
+.. figure :: images-masquerade/select-board.png
+        :alt: Selecting Arduino Type
+        :align: center
+
+        Select Arduino Nano
+
+Next- to make sure we can write to our arduinos, go to Tools -> Processor -> select "ATmega328P (Old Bootloader)"
+
+.. figure :: images-masquerade/processor.png
+        :alt: Selecting Arduino Port
+        :align: center
+
+        Select the correct port for your arduino
+
 To write your code to your arduino, click the (->) button in arduino IDE and wait a bit.
+
+.. figure :: images-masquerade/upload.png
+        :alt: Uploading to your arduino
+        :align: center
+
+        Uploading to your arduino
 
 In a second, your LED strip should light up!
 
