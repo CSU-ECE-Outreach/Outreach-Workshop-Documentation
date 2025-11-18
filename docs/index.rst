@@ -16,6 +16,11 @@ Welcome to ECE Outreach's Workshop Documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Demonstrations
+
+
+.. toctree::
+   :maxdepth: 2
    :caption: Additional Resources
    
    modifying

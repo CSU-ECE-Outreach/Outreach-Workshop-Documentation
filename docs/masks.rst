@@ -137,6 +137,24 @@ Watch a color bounce back and forth!
     // Replace <RED>, <GREEN>, <BLUE>, <TIME> with what you want
     theaterChase(strip.Color(<RED>, <GREEN>, <BLUE>), <TIME>);
 
+Wheel
+~~~~~~~~~~~~~~~~~~
+You need this segment if you want the rainbow cycle function to work!
+
+.. code-block:: cpp
+
+    // copy this part to your empty space
+    uint32_t Wheel(byte pos) {
+        if (pos < 85) return strip.Color(pos * 3, 255 - pos * 3, 0);
+        if (pos < 170) {
+            pos -= 85;
+            return strip.Color(255 - pos * 3, 0, pos * 3);
+        }
+        pos -= 170;
+        return strip.Color(0, pos * 3, 255 - pos * 3);
+    }
+
+
 Rainbow Cycle
 ~~~~~~~~~~~~~~~~~~
 Show all the colors of the rainbow!
