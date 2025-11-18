@@ -10,7 +10,9 @@ Welcome to ECE Outreach's Workshop Documentation!
    :maxdepth: 2
    :caption: Workshops
 
+   minibots
    ultrasonic_sensor_workshop
+   masks
 
 .. toctree::
    :maxdepth: 2
