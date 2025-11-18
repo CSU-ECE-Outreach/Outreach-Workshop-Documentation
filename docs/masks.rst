@@ -12,11 +12,7 @@ For this workshop, we will learn how computers see color!
 
 One way computers see color is by breaking down each pixel into its red, green, and blue components.
 
-`For later: pick out some cool colors at this website: `
-
-https://www.w3schools.com/colors/colors_picker.asp
-
-What are neopixels?
+What are Neopixels?
 ~~~~~~~~~~~~~~~~~~~~
 
 * Neopixels are special LEDs (Light Emitting Diodes) that can be used in strands to create cool sequences of colors
@@ -263,7 +259,7 @@ To write your code to your arduino, click the (->) button in arduino IDE and wai
 
 In a second, your LED strip should light up!
 
-Writing your Own functions
+Writing Your Own Functions
 ----------------------------
 If you finish early, try writing your own functions! If you need help getting started, ask a volunteer for help
 
