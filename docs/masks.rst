@@ -85,9 +85,20 @@ Then paste in the following code:
 
     }
 
+Coding Concepts
+--------------------
+
+Functions in arduino: 
+* Functions are blocks of code that can be called multiple times
+* Functions can take in parameters (inputs) and return values (outputs)
+* Functions help organize code and make it reusable and easier to read
+
+For our workshop, we will be using functions to create different light patterns on our LED strip!
+Below are some example functions you can copy into your empty space in the code above!
+
 
 Theater Chase
--------------
+~~~~~~~~~~~~~~
 Watch a color bounce back and forth!
 
 .. code-block:: cpp
@@ -113,7 +124,7 @@ Watch a color bounce back and forth!
     theaterChase(strip.Color(<RED>, <GREEN>, <BLUE>), <TIME>);
 
 Rainbow Cycle
----------------
+~~~~~~~~~~~~~~~~~~
 Show all the colors of the rainbow!
 
 .. code-block:: cpp
@@ -134,7 +145,7 @@ Show all the colors of the rainbow!
     rainbowCycle(<TIME>);
 
 Color Wipe
-----------------
+~~~~~~~~~~~~~~~~~~
 Show a color and then wipe it off!
 
 .. code-block:: cpp
@@ -153,7 +164,7 @@ Show a color and then wipe it off!
     colorWipe(strip.Color(<RED>, <GREEN>, <BLUE>), <TIME>);
 
 Color Fade
----------------
+~~~~~~~~~~~~~~~~~~
 Fade between two colors!
 
 .. code-block:: cpp
