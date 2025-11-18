@@ -2,4 +2,4 @@
 
 Link: https://outreach-workshop-documentation.readthedocs.io/en/latest/
 
-Guide to contribute: 
+Guide to contribute: https://outreach-workshop-documentation.readthedocs.io/en/latest/modifying.html

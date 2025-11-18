@@ -89,6 +89,7 @@ Coding Concepts
 --------------------
 
 Functions in arduino: 
+
 * Functions are blocks of code that can be called multiple times
 * Functions can take in parameters (inputs) and return values (outputs)
 * Functions help organize code and make it reusable and easier to read
@@ -207,6 +208,7 @@ Plug your Battery Cable Like this:
 
 * RED -> VIN
 * BLACK -> GND
+
 (they should be right next to each other)
 
     .. figure :: images-masquerade/wiring.png
@@ -249,16 +251,17 @@ Writing your Own functions
 If you finish early, try writing your own functions! If you need help getting started, ask a volunteer for help
 
 Tip Code Segments:
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Specify a specific color:
-`uint32_t c = strip.Color(r, g, b);`
+``uint32_t c = strip.Color(r, g, b);``
 
 Set your pixel color: 
-`strip.setPixelColor(i, c)`
+``strip.setPixelColor(i, c);``
 
 Show your pixel color:
-`strip.show()`
+``strip.show();``
 
 Delay function in arduino:
-`delay(time)`
+``delay(time);``
 
