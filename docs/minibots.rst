@@ -56,10 +56,10 @@ Code Breakdown for Curious Folk:
 ----------------------------------
 * Sets pin A5 as an input pin, likely for reading from a sensor (e.g., an obstacle detection sensor).
 * Motor Speed Setup: The motor speed is set to a certain value
-* digitalRead(A5) == LOW: Reads the state of pin A5. If the sensor detects a specific condition (LOW signal, such as an obstacle or line), the robot will turn right.
-* rightTurn(1300);: Calls the rightTurn() function to turn the robot right. The argument 1300 determines how long the robot will turn.
-* forward(10);: After the robot turns, it moves forward for a certain amount of time (10 milliseconds in this case).
-* L_motor.run(FORWARD); and R_motor.run(FORWARD);: Makes both the left and right motors move forward.
-* delay(delayNum);: Pauses the program for a specified time, determined by the delayNum argument. This controls how long the robot moves forward before executing the next action.
-* R_motor.run(BACKWARD);: Makes the right motor move in reverse. This causes the robot to pivot around the left motor, effectively turning it to the right.
-* delay(delayNum);: The robot will turn for the amount of time specified by the delayNum argument.
+* ``digitalRead(A5) == LOW`` : Reads the state of pin A5. If the sensor detects a specific condition (LOW signal, such as an obstacle or line), the robot will turn right.
+* ``rightTurn(1300);`` : Calls the rightTurn() function to turn the robot right. The argument 1300 determines how long the robot will turn.
+* ``forward(10);`` : After the robot turns, it moves forward for a certain amount of time (10 milliseconds in this case).
+* ``L_motor.run(FORWARD);`` and ``R_motor.run(FORWARD);``: Makes both the left and right motors move forward.
+* ``delay(delayNum);``: Pauses the program for a specified time, determined by the delayNum argument. This controls how long the robot moves forward before executing the next action.
+* ``R_motor.run(BACKWARD);``: Makes the right motor move in reverse. This causes the robot to pivot around the left motor, effectively turning it to the right.
+* ``delay(delayNum);``: The robot will turn for the amount of time specified by the delayNum argument.
