@@ -62,4 +62,3 @@ Code Breakdown for Curious Folk:
 * ``L_motor.run(FORWARD);`` and ``R_motor.run(FORWARD);``: Makes both the left and right motors move forward.
 * ``delay(delayNum);``: Pauses the program for a specified time, determined by the delayNum argument. This controls how long the robot moves forward before executing the next action.
 * ``R_motor.run(BACKWARD);``: Makes the right motor move in reverse. This causes the robot to pivot around the left motor, effectively turning it to the right.
-* ``delay(delayNum);``: The robot will turn for the amount of time specified by the delayNum argument.

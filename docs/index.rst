@@ -18,6 +18,7 @@ Welcome to ECE Outreach's Workshop Documentation!
    :maxdepth: 2
    :caption: Demonstrations
 
+   lled
 
 .. toctree::
    :maxdepth: 2
