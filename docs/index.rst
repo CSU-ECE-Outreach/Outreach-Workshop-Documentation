@@ -24,7 +24,7 @@ Welcome to ECE Outreach's Workshop Documentation!
    :maxdepth: 1
    :caption: Tutorials
 
-   
+   soldering
 
 .. toctree::
    :maxdepth: 1
