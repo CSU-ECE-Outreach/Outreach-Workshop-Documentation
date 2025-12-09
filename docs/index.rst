@@ -7,7 +7,7 @@ Welcome to ECE Outreach's Workshop Documentation!
 ===========================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Workshops
 
    minibots
@@ -15,13 +15,19 @@ Welcome to ECE Outreach's Workshop Documentation!
    masks
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Demonstrations
 
    lled
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: Tutorials
+
+   
+
+.. toctree::
+   :maxdepth: 1
    :caption: Additional Resources
    
    modifying

@@ -52,7 +52,7 @@ Uploading
         :align: center
 
 
-Code Breakdown for Curious Folk:
+Code Breakdown for Curious Folk
 ----------------------------------
 * Sets pin A5 as an input pin, likely for reading from a sensor (e.g., an obstacle detection sensor).
 * Motor Speed Setup: The motor speed is set to a certain value
