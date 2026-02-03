@@ -1,6 +1,25 @@
 Minibots Workshop
 =======================
 
+3D Printing The Minibots
+-------------------------
+
+Download part files :download:`here <files/MiniBOTs-Part-Files.zip>`.
+
+How Many to Print:
+- 2x Wheel-Leader
+- 2x Wheel-Follower
+- 1x IR-Sensor-Base
+- 1x IR-Sensor-Cover
+- 1x Sensor-Mount
+- 1x Frame
+- 1x Motor-Locks
+- 1x Arduino-Lock
+
+Tips:
+- Use PLA for easy printing
+- Wheels do not need supports
+
 Wiring
 -------------------
 .. figure :: images-minibots/minibots-insts-1.png
