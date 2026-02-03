@@ -6,6 +6,13 @@
 Welcome to ECE Outreach's Workshop Documentation!
 ===========================================================
 
+.. image:: logo.png
+    :alt: ECE Outreach Logo
+    :align: center
+    :width: 200px
+
+Below you can find a list of workshops, demonstrations, tutorials, and additional resources provided by ECE Outreach at CSU!
+
 .. toctree::
    :maxdepth: 1
    :caption: Workshops
