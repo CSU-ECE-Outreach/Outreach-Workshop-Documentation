@@ -32,6 +32,7 @@ Below you can find a list of workshops, demonstrations, tutorials, and additiona
    :caption: Tutorials
 
    soldering
+   pcb-ordering
 
 .. toctree::
    :maxdepth: 1
