@@ -35,21 +35,17 @@ Basic Controls
 
 Starting a Sketch
 -----------------
-
-Right click on the plane you want to sketch on and select "New Sketch".
-
+1. Right click on the plane you want to create your sketch on
 .. figure:: images-onshape/selected_plane.png
     :alt: selecting a plane for sketching in Onshape
     :align: center
-
-The plane you select will be the plane that your sketch is on. You can select the top, front, or right plane to start your sketch.
 
 .. note::
     You can click on the box with the planes labeled to reorient your view to look directly at the plane you want to sketch on.
 
 
 
-Click the Sketch button in the toolbar to start sketching. (It is the first option furthest to the left.)
+2. Click the Sketch button in the toolbar to start sketching. (It is the first option furthest to the left.)
 
 .. figure:: images-onshape/sketch.png
     :alt: Sketch button in Onshape
