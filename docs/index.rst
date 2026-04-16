@@ -34,6 +34,7 @@ Below you can find a list of workshops, demonstrations, tutorials, and additiona
    soldering
    pcb-ordering
    onshape
+   mk3s
    
 .. toctree::
    :maxdepth: 1
