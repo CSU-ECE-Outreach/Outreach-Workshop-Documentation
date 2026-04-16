@@ -11,14 +11,14 @@ Creating an Account & and a new Document
 2. Create an an account if you don't already have one. You can create a free account using your email address or with Google. 
 3. Click on "Create" then "Document". Give your new document a name and click create.
 
-figure:: images-onshape/create_doc.png
+.. figure:: images-onshape/create_doc.png
         :alt: Creating a new document in Onshape
         :align: center
 
  
 4. Once you've made your document click on the 3 lines button to the left of your document name and go to workspace units to ensure your document is using the correct units.
 
-figure:: images-onshape/os_settings.png
+.. figure:: images-onshape/os_settings.png
     :alt: Setting units in Onshape
     :align: center
 
@@ -53,13 +53,19 @@ Starting a Sketch
 
 Sketching
 ---------
-
 When making your sketch, your goal is to create a 2D fully defined base for your 3D object. This is done by using Onshape's sketching tools to create the lines of your sketch and define them with dimensions and relations.
+
 
 Using most of the sketching tools in Onshape involves selecting the tool you want to use, selecting the point on your sketch plane where you want your starting point to be, dragging your mouse to modify the shape or size of the entity you are creating, and then clicking again to set the end point of the entity.
 
-Dimensioning
-~~~~~~~~~~~~
+Fully Defining Your Sketch
+--------------------------
+
+Useful Relations:
+    -Parallel
+    -Equal
+    -Horizontal and Vertical
+    -Midpoint 
 
 You can use the dimension tool to set any dimension within your sketch.
 
