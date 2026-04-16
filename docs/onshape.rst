@@ -62,10 +62,10 @@ Fully Defining Your Sketch
 --------------------------
 
 Useful Relations:
-- Parallel
-- Equal
-- Horizontal/Vertical
-- Midpoint 
+* Parallel
+* Equal
+* Horizontal/Vertical
+* Midpoint 
 
 You can use the dimension tool to set any dimension within your sketch.
 
