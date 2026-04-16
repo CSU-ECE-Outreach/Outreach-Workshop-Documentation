@@ -62,5 +62,31 @@ For learning purposes, let's make a cube without using the rectangle tool.
 Your sketch is fully defined when all of the lines in your sketch turn from blue to black. This means that you are unable to move any of the lines in your sketch without changing the dimensions or relations you have set.
  Your sketch being fully defined is important because it ensures that it cannot be accidentally modified and fits the specifications you want it to. 
 
+3. Once your sketch is fully defined, you can now extrude it
+    *to extrude a shape you'll want to make sure that its fully enclosed
+    *select the shape you want to extrude and then click the extrude tool
+     this will open a menu where you can control modify the settings of your extrusion.
+        *for a simple extrusion, make sure you have have 'add' selected and select blind for an extrusion with a specific depth. You can also swap the direction of your extrusion by clicking the arrow indicating the direction the extrusion is going.
 
 
+You did it!!!
+
+
+With your cube that you made you can now use some of onshape's 3d tools to modify it.
+    *fillet- rounds the edge of your cube
+    *chamfer- creates a beveled edge on your cube
+    *shell- hollows out your cube and creates a wall thickness that you can specify
+You can also use the sketch tool on any face of your cube to add more features to it. 
+
+Try putting a hole through your cube
+    1. select the face you want to start the hole from and start a new sketch
+    2. make sure you have a centered hole make use of some contruction geometry. This are lines that you designate as "imaginary" and use to build other goemetry off of. 
+     We're going to make two contruction lines by making a line that goes from the top of the cube to the bottom and making its starting point the midpoint of the top edge.
+     To make it a construction line, press the the 'i' key.
+    3. Now use the circle tool to make the outline of your hole, making the center of the cicle to be the midpoint of the contruction line you just made.
+    4. To make the cut in the cube select the circle and then click the extrude tool. To remove material instead of adding material, select "remove" instead of "add" in the extrude menu.
+    5. Specify how far through the cube you want the hole to go. If you want to make the hole go all the way through, select "through all" instead of "blind".
+
+    Congratualatios you made a cube with a hole in it!!
+
+If you want to try and make something more complicated here is a part that is used during the 

@@ -33,10 +33,12 @@ Below you can find a list of workshops, demonstrations, tutorials, and additiona
 
    soldering
    pcb-ordering
-
+   onshape
+   
 .. toctree::
    :maxdepth: 1
    :caption: Additional Resources
    
    modifying
+   
    
