@@ -26,14 +26,15 @@ figure:: images-onshape/os_settings.png
 Basic Controls
 --------------
 
-* Left click on an entity you want to select.
-* You will know if something is selected if it is highlighted yellow.
-* Click it again to deselect it.
-* Hold down the right mouse button to pan the view.
+* Left click an entity to select it (you will know if its selected if its highlighted gold)
+* Click a selected entity again to deselect it. Or left click empty space to unselect everything.
+* Hold down the right mouse button and move the mouse to pan the view.
 * Use the scroll wheel to zoom in and out.
+* Most tools have some sort of hot key (for example d toggles the dimensioning tool)
+* Press esc to deselect a selected tool
 
 Starting a Sketch
-----------------
+-----------------
 
 Right click on the plane you want to sketch on and select "New Sketch".
 
