@@ -11,16 +11,17 @@ Go to https://www.onshape.com/ and click on "Get Started". You can create a free
 Click on "Create", then "Document". You can name your document.
 
 .. figure:: images-onshape/create_doc.png
-     :alt: Creating a new document in Onshape
-     :align: center
+    :alt: Creating a new document in Onshape
+    :align: center
 
     Name it and click create.
 
-Check your settings to make sure you have the correct units selected.
 
 .. figure:: images-onshape/os_settings.png
     :alt: Setting units in Onshape
     :align: center
+
+    Check your settings to make sure you have the correct units selected.
 
 Basic Controls
 --------------
