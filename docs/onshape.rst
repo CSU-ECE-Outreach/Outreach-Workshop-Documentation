@@ -37,7 +37,7 @@ Starting a Sketch
 
 Right click on the plane you want to sketch on and select "New Sketch".
 
-.. figure:: images-onshape/selectd_plane.png
+.. figure:: images-onshape/selected_plane.png
     :alt: selecting a plane for sketching in Onshape
     :align: center
 
@@ -46,7 +46,13 @@ The plane you select will be the plane that your sketch is on. You can select th
 .. note::
     You can click on the box with the planes labeled to reorient your view to look directly at the plane you want to sketch on.
 
+
+
 Click the Sketch button in the toolbar to start sketching. (It is the first option furthest to the left.)
+
+.. figure:: images-onshape/sketch.png
+    :alt: Sketch button in Onshape
+    :align: center
 
 Sketching
 ---------
@@ -60,6 +66,9 @@ Dimensioning
 
 You can use the dimension tool to set any dimension within your sketch.
 
+.. figure:: images-onshape/dimension.png
+    :alt: Dimension tool in Onshape
+    :align: center
 
 For learning purposes, let's make a cube without using the rectangle tool.
 
@@ -70,8 +79,7 @@ For learning purposes, let's make a cube without using the rectangle tool.
 
 2. Use relations and dimensions to turn that weird shape into a square.
 
-    * To add a relation, select all of the entities you want to relate and then click on the relation you want to add in the toolbar. For example, to make two lines parallel, select the two lines and then click on the "Parallel" relation in the toolbar.
-
+   * To add a relation, select all of the entities you want to relate and then click on the relation you want to add in the toolbar. For example, to make two lines parallel, select the two lines and then click on the "Parallel" relation in the toolbar.
    * To add a dimension, select the entities you want to dimension and then click on the dimension tool in the toolbar. Click again to place the dimension and then enter the desired value.
 
 Your sketch is fully defined when all of the lines in your sketch turn from blue to black. This means that you are unable to move any of the lines in your sketch without changing the dimensions or relations you have set.
@@ -84,7 +92,6 @@ Your sketch being fully defined is important because it ensures that it cannot b
    * Select the shape you want to extrude and then click the extrude tool. This will open a menu where you can modify the settings of your extrusion.
    * For a simple extrusion, make sure you have "add" selected and choose "blind" for an extrusion with a specific depth. You can also swap the direction of your extrusion by clicking the arrow indicating the direction of the extrusion.
 
-
 You did it!!!
 
 
@@ -93,6 +100,10 @@ With the cube that you made, you can now use some of Onshape's 3D tools to modif
 * Fillet - rounds the edge of your cube.
 * Chamfer - creates a beveled edge on your cube.
 * Shell - hollows out your cube and creates a wall thickness that you can specify.
+
+.. figure:: images-onshape/fillet-chamfer-shell.png
+    :alt: Fillet, Chamfer, and Shell tools in Onshape
+    :align: center
 
 You can also use the sketch tool on any face of your cube to add more features to it.
 
