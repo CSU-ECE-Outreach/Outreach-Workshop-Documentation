@@ -39,8 +39,4 @@ Below you can find a list of workshops, demonstrations, tutorials, and additiona
    :caption: Additional Resources
    
    modifying
-
-   .. toctree::
-   :maxdepth: 1
-   :caption: onshape workshop
-      onshape
+   
