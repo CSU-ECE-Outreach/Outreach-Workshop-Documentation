@@ -1,19 +1,23 @@
 Onshape Tutorial
 =================
-Within this workshop, we will be using Onshape, a cloud-based CAD software. You can access it at https://www.onshape.com/.
+
+Introduction
+------------
+In this workshop, we will be using Onshape, a cloud-based CAD software. You can access it at https://www.onshape.com/.
 
 Creating an Account & and a new Document
--------------------
-go to https://www.onshape.com/ and click on "Get Started". You can create a free account using your email address or sign up with Google. Follow the prompts to complete the registration process.
+----------------------------------------
+1. Go to https://www.onshape.com/ and click on **"Get Started".** 
+2. Create an an account if you don't already have one. You can create a free account using your email address or with Google. 
+3. Click on "Create" then "Document". Give your new document a name and click create.
 
-click on "Create" then "Document". You can name your document.
 figure:: images-onshape/create_doc.png
         :alt: Creating a new document in Onshape
         :align: center
 
- Name it and click create
+ 
+4. Once you've made your document click on the 3 lines button to the left of your document name and go to workspace units to ensure your document is using the correct units.
 
-  check your settings to make sure you have the correct units selected
 figure:: images-onshape/os_settings.png
     :alt: Setting units in Onshape
     :align: center
