@@ -35,6 +35,7 @@ Below you can find a list of workshops, demonstrations, tutorials, and additiona
    pcb-ordering
    onshape
    mk3s
+   test-equipment
    
 .. toctree::
    :maxdepth: 1
