@@ -1,5 +1,5 @@
-**Keysight EDU34450A**
-----------------------
+**Keysight EDU34450A DMM**
+---------------------------
 
 .. image:: images-test-equipment/image1.png
    :width: 6.5in
@@ -179,8 +179,8 @@ simultaneously for analysis and reporting.
 
 ✔ Reverse direction should read OL or no conduction
 
-**Keysight EDU36311A**
-----------------------
+**Keysight EDU36311A DC Power Supply**
+----------------------------------------
 
 .. image:: images-test-equipment/image3.png
    :width: 6.5in
