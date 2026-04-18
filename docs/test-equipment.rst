@@ -66,21 +66,21 @@ simultaneously for analysis and reporting.
 +-----------------------------------+-----------------------------------+
 | **Label**                         | **Description**                   |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(1)`**                   | On/Off Switch                     |
+| **``(1)``**                   | On/Off Switch                     |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(2)`**                   | Display                           |
+| **``(2)``**                   | Display                           |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(3)`**                   | USB Host                          |
+| **``(3)``**                   | USB Host                          |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(4)`**                   | Measurement Function Keys         |
+| **``(4)``**                   | Measurement Function Keys         |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(5)`**                   | Soft Keys                         |
+| **``(5)``**                   | Soft Keys                         |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(6)`**                   | Range Change Keys                 |
+| **``(6)``**                   | Range Change Keys                 |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(7)`**                   | Input Terminals                   |
+| **``(7)``**                   | Input Terminals                   |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(8)`**                   | Fuse                              |
+| **``(8)``**                   | Fuse                              |
 +-----------------------------------+-----------------------------------+
 
 **Power & Setup**
@@ -88,9 +88,9 @@ simultaneously for analysis and reporting.
 
 1. Plug in the meter
 
-2. Press **Power Switch :mark:`(1)`**
+2. Press **Power Switch ``(1)``**
 
-3. Insert leads **:mark:`(7)`**:
+3. Insert leads **``(7)``**:
 
    - **Black → COM**
 
@@ -101,18 +101,18 @@ simultaneously for analysis and reporting.
 **Measure DC Voltage (DCV)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Press the **DCV button** **:mark:`(4)`** to measure **DC Voltage**
+1. Press the **DCV button** **``(4)``** to measure **DC Voltage**
 
 2. Connect probes **in parallel** with the circuit
 
-3. Read value on display **:mark:`(2)`**
+3. Read value on display **``(2)``**
 
 ✔ Used for batteries, power rails, bias voltages
 
 **Measure AC Voltage (ACV)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Press the **ACV button** **:mark:`(4)`** to measure **AC Voltage**
+1. Press the **ACV button** **``(4)``** to measure **AC Voltage**
 
 2. Connect probes **in parallel**
 
@@ -125,7 +125,7 @@ simultaneously for analysis and reporting.
 
 1. Move **red lead to A or mA**
 
-2. Press the **DCI button** **:mark:`(4)`** to measure **DC.**
+2. Press the **DCI button** **``(4)``** to measure **DC.**
 
 3. **Break the circuit** and insert the meter **in series**
 
@@ -138,7 +138,7 @@ simultaneously for analysis and reporting.
 
 1. Red lead → **A / mA**
 
-2. Press the **ACI button** **:mark:`(4)`** to measure **AC**.
+2. Press the **ACI button** **``(4)``** to measure **AC**.
 
 3. Measure **in series**
 
@@ -147,10 +147,10 @@ simultaneously for analysis and reporting.
 
 1. **Turn circuit power OFF**
 
-2. Press the **Ω2W button** **:mark:`(4)`** to measure resistance.
+2. Press the **Ω2W button** **``(4)``** to measure resistance.
 
-   a. Press the **Shift Button** **:mark:`(4)`** then the **Ω2W button**
-      **:mark:`(4)`** to select the **Ω4W mode**
+   a. Press the **Shift Button** **``(4)``** then the **Ω2W button**
+      **``(4)``** to select the **Ω4W mode**
 
 3. Measure across the component
 
@@ -159,7 +159,7 @@ simultaneously for analysis and reporting.
 **Continuity Test**
 ~~~~~~~~~~~~~~~~~~~
 
-1. Press the **Cont. button :mark:`(4)`** to check for continuity.
+1. Press the **Cont. button ``(4)``** to check for continuity.
 
 2. Touch probes across the connection
 
@@ -170,8 +170,8 @@ simultaneously for analysis and reporting.
 **Diode Test**
 ~~~~~~~~~~~~~~
 
-1. Press the **Shift Button** **:mark:`(4)`** then the **Cont. button**
-   **:mark:`(4)`** to select the diode test mode.
+1. Press the **Shift Button** **``(4)``** then the **Cont. button**
+   **``(4)``** to select the diode test mode.
 
 2. **Red** **→** **anode**, **Black** **→** **cathode**
 
@@ -260,46 +260,45 @@ prototyping, electronics instruction, and device verification.
 +-----------------------------------+-----------------------------------+
 | **Label**                         | **Description**                   |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(1)`**                   | 7-inch WVGA display               |
+| **``(1)``**                   | 7-inch WVGA display               |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(2)`**                   | Output selection keys             |
+| **``(2)``**                   | Output selection keys             |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(3)`**                   | Voltage/current knobs             |
+| **``(3)``**                   | Voltage/current knobs             |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(4)`**                   | Function/navigation/numeric keys  |
+| **``(4)``**                   | Function/navigation/numeric keys  |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(5)`**                   | Output on/off keys                |
+| **``(5)``**                   | Output on/off keys                |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(6)`**                   | Output terminals                  |
+| **``(6)``**                   | Output terminals                  |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(7)`**                   | Soft keys                         |
+| **``(7)``**                   | Soft keys                         |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(8)`**                   | Earth ground reference            |
+| **``(8)``**                   | Earth ground reference            |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(9)`**                   | USB port                          |
+| **``(9)``**                   | USB port                          |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(10)`**                  | Power                             |
+| **``(10)``**                  | Power                             |
 +-----------------------------------+-----------------------------------+
 
 **Power & Safety**
 ~~~~~~~~~~~~~~~~~~
 
-1. Press the **I/O Button :mark:`(10)`** to **Power ON**
+1. Press the **I/O Button ``(10)``** to **Power ON**
 
-2. Ensure **Outputs OFF :mark:`(4)` All On/Off if the outputs are off;
-   ignore this step**
+2. Ensure outputs are **OFF** using **All On/Off ``(5)``**
 
 3. Set the voltage **before connecting**
 
 **Single Supply (e.g., 6 V/5 A or 30 V/1 A)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Select **CH1 :mark:`(2)` :mark:`(1)`**
+1. Select **CH1 ``(2)`` ``(1)``**
 
 2. Set **Voltage**
 
-   - You can use the dial **:mark:`(3)`** or just input the value
-     directly with the number pad **:mark:`(4)`**
+   - You can use the dial **``(3)``** or just input the value
+     directly with the number pad **``(4)``**
 
 3. Set **Current Limit** (important!)
 
@@ -309,16 +308,16 @@ prototyping, electronics instruction, and device verification.
 
    - Black → GND
 
-5. Press **Output ON :mark:`(On)`**
+5. Press **Output ON ``(5)``**
 
 **Dual Supply (± for Op-Amps)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. CH1 → +V **:mark:`(2)` :mark:`(1)`**
+1. CH1 → +V **``(2)`` ``(1)``**
 
-2. CH2 → −V **:mark:`(2)` :mark:`(2) `**
+2. CH2 → −V **``(2)`` ``(2)``**
 
-3. Tie the **grounds together :mark:`(8)`**
+3. Tie the **grounds together ``(8)``**
 
 4. Verify voltages before connecting the circuit
 
@@ -327,13 +326,14 @@ prototyping, electronics instruction, and device verification.
 **Turning Off**
 ~~~~~~~~~~~~~~~
 
-1. Press **Output OFF :mark:`(5)` (All On/Off)**
+1. Press **Output OFF ``(5)`` (All On/Off)**
 
 2. Then rewire or disconnect
 
 ⚠️ Never hot-swap sensitive circuits without current limiting
 
 **Keysight EDU33212A**
+----------------------
 
 .. image:: images-test-equipment/image5.png
    :width: 6.5in
@@ -402,37 +402,37 @@ supporting modern teaching labs and entry-level R&D environments.
 +-----------------------------------+-----------------------------------+
 | **Label**                         | **Description**                   |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(1)`**                   | Display                           |
+| **``(1)``**                   | Display                           |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(2)`**                   | Function keys                     |
+| **``(2)``**                   | Function keys                     |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(3)`**                   | Soft keys                         |
+| **``(3)``**                   | Soft keys                         |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(4)`**                   | Numeric keys                      |
+| **``(4)``**                   | Numeric keys                      |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(5)`**                   | Knob and cursor arrows            |
+| **``(5)``**                   | Knob and cursor arrows            |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(6)`**                   | Output connectors, setup, and     |
+| **``(6)``**                   | Output connectors, setup, and     |
 |                                   | On/Off buttons                    |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(7)`**                   | Sync/trigger output connector     |
+| **``(7)``**                   | Sync/trigger output connector     |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(8)`**                   | External Trig/Gate/FSK/Burst      |
+| **``(8)``**                   | External Trig/Gate/FSK/Burst      |
 |                                   | connector                         |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(9)`**                   | CAL connector                     |
+| **``(9)``**                   | CAL connector                     |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(10)`**                  | USB host                          |
+| **``(10)``**                  | USB host                          |
 +-----------------------------------+-----------------------------------+
-| **:mark:`(11)`**                  | Power switch                      |
+| **``(11)``**                  | Power switch                      |
 +-----------------------------------+-----------------------------------+
 
 **Power & Output**
 ~~~~~~~~~~~~~~~~~~
 
-1. Plug in → **Power ON :mark:`(11)`**
+1. Plug in → **Power ON ``(11)``**
 
-2. Connect the **BNC output → circuit input:mark:`(6)`**
+2. Connect the **BNC output → circuit input ``(6)``**
 
 3. Connect **ground**
 
@@ -441,25 +441,25 @@ supporting modern teaching labs and entry-level R&D environments.
 
 1. Select **Sine**
 
-   a. By default, the device should start on **Waveform :mark:`CH 1`.**
+   a. By default, the device should start on **Waveform ``CH 1``.**
       Otherwise, press the **Waveform** button to select a waveform.
 
-   b. Use the appropriate **Soft key :mark:`(3)`** to select **Sine**
+   b. Use the appropriate **Soft key ``(3)``** to select **Sine**
 
-   c. Press the **Waveform** **:mark:`(2)`**\ to toggle between
-      **:mark:`CH1`** and **:mark:`CH2`**
+   c. Press the **Waveform** **``(2)``** to toggle between
+      **``CH1``** and **``CH2``**
 
 2. Set **Frequency** (e.g., 1 kHz)
 
-   a. By default, the device should select **Parameter** **:mark:`(2)`**
+   a. By default, the device should select **Parameter** **``(2)``**
       once you have selected a waveform in the previous step. Otherwise,
-      press the **Parameter** **:mark:`(2)`** button to set a
+      press the **Parameter** **``(2)``** button to set a
       **Frequency**.
 
-   b. Use the appropriate **Soft key :mark:`(3)`** to select
-      **Frequncy**.
+   b. Use the appropriate **Soft key ``(3)``** to select
+      **Frequency**.
 
-   c. Use the **Numeric keys :mark:`(4)`** to input your desired
+   c. Use the **Numeric keys ``(4)``** to input your desired
       frequency.
 
       i. Select your desired SI prefix (μHz, mHz, Hz, kHz, MHz)
@@ -467,10 +467,10 @@ supporting modern teaching labs and entry-level R&D environments.
 3. Set **Amplitude** (e.g., 1 Vpp)
 
    a. By default, the device should still be in **Parameter**
-      **:mark:`(2)`.**\ Otherwise, press the **Parameter**
-      **:mark:`(2)`** button to set an **Amplitude**.
+      **``(2)``.** Otherwise, press the **Parameter**
+      **``(2)``** button to set an **Amplitude**.
 
-   b. Use the appropriate **Soft key :mark:`(3)`** to select an
+   b. Use the appropriate **Soft key ``(3)``** to select an
       **Amplitude**
 
       i. mVpp, Vpp, mVrms, Vrms, dBm
@@ -478,31 +478,31 @@ supporting modern teaching labs and entry-level R&D environments.
 4. Set **Offset = 0 V**
 
    a. By default, the device should still be in **Parameter**
-      **:mark:`(2)`.**\ Otherwise, press the **Parameter**
-      **:mark:`(2)`** button to set an **Offset**.
+      **``(2)``.** Otherwise, press the **Parameter**
+      **``(2)``** button to set an **Offset**.
 
-   b. Use the appropriate **Soft key :mark:`(3)`** to select **Offset**.
+   b. Use the appropriate **Soft key ``(3)``** to select **Offset**.
 
-   c. Use the **Numeric keys :mark:`(4)`** to input your desired Offset.
+   c. Use the **Numeric keys ``(4)``** to input your desired Offset.
 
-      i. Select your desire SI prefix
+      i. Select your desired SI prefix
 
-5. Turn **Output ON :mark:`(6)`**
+5. Turn **Output ON ``(6)``**
 
-   a. Use the appropriate **On/Off :mark:`(6)`** button for your desired
+   a. Use the appropriate **On/Off ``(6)``** button for your desired
       channel.
 
-      i. **:mark:`CH1`**, **:mark:`CH2`**
+      i. **``CH1``**, **``CH2``**
 
 ✔ Most common input for analog labs
 
 **Square or Triangle Wave**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Select the **Waveform :mark:`(2)`** button to select a different type
+1. Select the **Waveform ``(2)``** button to select a different type
    of waveform
 
-   a. Use the appropriate **Soft key :mark:`(3)`** to select your
+   a. Use the appropriate **Soft key ``(3)``** to select your
       desired Waveform
 
       i. Square, Ramp, Pulse
@@ -525,4 +525,5 @@ supporting modern teaching labs and entry-level R&D environments.
 ⚠️ Offset adds DC bias to the signal
 
 ✔ Always check the output with a scope first
+
 
